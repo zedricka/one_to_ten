@@ -63,5 +63,10 @@ function avengersAssemble (nah){
   if ("captain america" = "captain america"){
     console.log ('Sorry, you are not needed for this mission');
   }
-  if ()
+  if ("black widow" = "black widow"){
+    console.log ('Sorry, you are not needed for this mission');
+  }
+  if (hero = "Thor"){
+    console.log ("You should know that when you betray me, I will kill you.");
+  }
 }

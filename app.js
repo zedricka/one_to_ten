@@ -57,16 +57,43 @@ function avengersAssemble (nah){
   if (avengersAssemble == nah){
     console.log ("Avengers assemble!" + avengersAssemble);
   }
-  if ("ironman" = "ironman"){
+  if (hero == "ironman"){
     console.log ('Sorry, you are not needed for this mission');
   }
-  if ("captain america" = "captain america"){
+  else if (hero == "captain america"){
     console.log ('Sorry, you are not needed for this mission');
   }
-  if ("black widow" = "black widow"){
+  else if (hero == "black widow"){
     console.log ('Sorry, you are not needed for this mission');
   }
-  if (hero = "Thor"){
+  else if (hero == "Thor"){
     console.log ("You should know that when you betray me, I will kill you.");
   }
 }
+avengersAssemble (09123041238904790,7812364789612378946);
+
+// Lights Out
+var lights == true;
+
+if (lights == true){
+  console.log ('And then there was light');
+  else console.log ('Lights out');
+}
+
+//Vroom Vroom
+var carType = ["Toyota", "Lamborghini", "Tesla"];
+var color = ["red", "blue", "black"];
+var num = 666;
+
+  if (carType[0] && color[1] ){
+    console.log ("We have blue Toyota");
+  }
+  else if (carType[1] && color[0] ){
+    console.log ("We have red Lamborghini");
+  }
+  else if (carType[2] && color[2] ){
+    console.log ("We have black Tesla");
+  }
+  else {
+    console.log("We don't have any blue Toyotas in stock")
+  }

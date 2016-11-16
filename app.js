@@ -35,11 +35,10 @@ console.log (hero + " is our lovable hero who " + xp + " with his trusty " + wea
 
 // 1 Fish 2 Fish
 var count;
-var animal = "Alpaca"
+var animal = "Alpaca";
 
 function animalHouse (bork, boof){
-  if (bork + boof){
-    count = "OVER 9000";
+  if (bork + boof == count){
     console.log (count);
   }
 }
@@ -54,23 +53,20 @@ if (count > 2)
 var hero = "Thor"
 
 function avengersAssemble (nah){
-  if (avengersAssemble == nah){
-    console.log ("Avengers assemble!" + avengersAssemble);
-  }
-  if (hero == "ironman"){
+  if (nah == "ironman"){
     console.log ('Sorry, you are not needed for this mission');
   }
-  else if (hero == "captain america"){
+  else if (nah == "captain america"){
     console.log ('Sorry, you are not needed for this mission');
   }
-  else if (hero == "black widow"){
+  else if (nah == "black widow"){
     console.log ('Sorry, you are not needed for this mission');
   }
-  else if (hero == "Thor"){
+  else if (nah == "Thor"){
     console.log ("You should know that when you betray me, I will kill you.");
   }
 }
-avengersAssemble (09123041238904790,7812364789612378946);
+avengersAssemble (nah);
 
 // Lights Out
 var lights == true;
@@ -86,13 +82,13 @@ var color = ["red", "blue", "black"];
 var num = 666;
 
   if (carType[0] && color[1] ){
-    console.log ("We have blue Toyota");
+    console.log ("We have " + color[1] + " " + carType[0]);
   }
   else if (carType[1] && color[0] ){
-    console.log ("We have red Lamborghini");
+    console.log ("We have " + color[0] + " " + carType[1]);
   }
   else if (carType[2] && color[2] ){
-    console.log ("We have black Tesla");
+    console.log ("We have " + color[2] + " " + carType[2]);
   }
   else {
     console.log("We don't have any blue Toyotas in stock")

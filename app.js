@@ -38,7 +38,7 @@ var count;
 var animal = "Alpaca";
 
 function animalHouse (bork, boof){
-  if (bork + boof == count){
+  count = bork + boof
     console.log (count);
   }
 }
